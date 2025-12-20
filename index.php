@@ -12,7 +12,7 @@ include_once "server/connection.php";
 
 <head>
     <title><?php echo $sitename ?></title>
-    <link rel="icon" href="<?php echo $domain ?>assets/images/icon.webp" type="image/gif" sizes="16x16">
+    <link rel="icon" href="<?php echo $domain ?>assets/images/logo.png" type="image/png">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Seoly — SEO & Digital Marketing Website Template" name="description">
@@ -58,31 +58,20 @@ include_once "server/connection.php";
                                 <div class="de-flex-col header-col-mid">
                                     <ul id="mainmenu">
                                         <li><a class="menu-item" href="index.html">Home</a>
-                                            
+
                                         </li>
                                         <li><a class="menu-item" href="about.html">About Us</a></li>
                                         <li><a class="menu-item" href="services.html">Services</a>
-                                            <ul>
-                                                <li><a class="menu-item" href="services.html">All Services</a></li>
-                                                <li><a class="menu-item" href="service-single.html">Services Single</a></li>
-                                                <li><a class="menu-item" href="pricing.html">Pricing Plans</a></li>
-                                                <li><a class="menu-item" href="request.html">Get Free Proposal</a></li>
-                                            </ul>
+
                                         </li>
-                                        <li><a class="menu-item" href="case-studies.html">Case Studies</a></li>
-                                        <li><a class="menu-item" href="blog.html">Blog</a>
-                                            <ul>
-                                                <li><a class="menu-item" href="blog.html">Blog Default</a></li>
-                                                <li><a class="menu-item" href="blog-2.html">Blog Style 2</a></li>
-                                                <li><a class="menu-item" href="blog-single.html">Blog Single</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="menu-item" href="contact.html">Contact</a></li>
+
+
+                                        <li><a class="menu-item" href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="de-flex-col">
                                     <div class="menu_side_area">
-                                        <a class="btn-main fx-slide" href="request.html"><span>Get Free Proposal</span></a>
+                                        <a class="btn-main fx-slide" href="request.html"><span>Download</span></a>
                                         <span id="menu-btn"></span>
                                     </div>
 
@@ -437,15 +426,12 @@ include_once "server/connection.php";
 
 
 
-            <section class="bg-color-op-1 rounded-1 mx-4">
+            <section class="bg-color-op-1 rounded-1 mx-4 mt-4">
                 <div class="container">
                     <div class="row align-items-center g-4">
                         <div class="col-lg-8">
                             <div class="subtitle id-color wow fadeInUp">Do you have</div>
                             <h2 class="wow fadeInUp" data-wow-delay=".2s">Any questions?</h2>
-                        </div>
-                        <div class="col-lg-4 text-lg-end">
-                            <a class="btn-text text-dark wow fadeInLeft" href="#">More questions</a>
                         </div>
                     </div>
 
@@ -530,7 +516,7 @@ include_once "server/connection.php";
                                     <i class="abs fs-32 p-3 bg-white rounded-1 icofont-envelope id-color"></i>
                                     <div class="ms-80px">
                                         <div class="fw-bold text-white">Send a Message</div>
-                                        contact@seoly-agency.com
+                                        <?php echo $siteemail ?>
                                     </div>
                                 </div>
 
@@ -628,26 +614,13 @@ include_once "server/connection.php";
                                     <ul>
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="case-studies.html">Case Studies</a></li>
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="about.html">Faq</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="widget">
-                                    <h5>Our Services</h5>
-                                    <ul>
-                                        <li><a href="services.html">Keyword Research</a></li>
-                                        <li><a href="services.html">On-Page SEO</a></li>
-                                        <li><a href="services.html">Off-Page SEO</a></li>
-                                        <li><a href="services.html">Technical SEO</a></li>
-                                        <li><a href="services.html">Local SEO</a></li>
-                                        <li><a href="services.html">Content Marketing</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
@@ -658,7 +631,7 @@ include_once "server/connection.php";
                             <div class="spacer-20"></div>
 
                             <div class="fw-bold text-dark"><i class="icofont-envelope me-2 id-color"></i>Send a Message</div>
-                            contact@seoly.com
+                            <?php echo $siteemail ?>
 
                             <div class="spacer-20"></div>
 
@@ -674,7 +647,7 @@ include_once "server/connection.php";
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                    Copyright 2025 - Seoly by Designesia
+                                    Copyright 2025 - <a href="https://spotwebtech.com.ng/">Develop And Build By SPOTWEBTECH</a>
                                 </div>
                                 <ul class="menu-simple">
                                     <li><a href="#">Terms &amp; Conditions</a></li>
@@ -697,7 +670,7 @@ include_once "server/connection.php";
         </div>
 
         <div id="extra-content">
-            <img src="<?php echo $domain ?>assets/images/logo.png" class="" style="width:120px " alt="">
+            <img src="<?php echo $domain ?>assets/images/logo.png" class="" style="width:200px " alt="">
 
             <div class="spacer-30-line"></div>
 
@@ -718,7 +691,7 @@ include_once "server/connection.php";
             <h5>Contact Us</h5>
             <div><i class="icofont-clock-time me-2"></i>Monday - Saturday 08.00 - 18.00</div>
             <div><i class="icofont-location-pin me-2"></i>100 S Main St, New York, </div>
-            <div><i class="icofont-envelope me-2"></i>contact@seoly-agency.com</div>
+            <div><i class="icofont-envelope me-2"></i><?php echo $siteemail ?></div>
 
             <div class="spacer-30-line"></div>
 
@@ -737,7 +710,7 @@ include_once "server/connection.php";
     <!-- overlay content end -->
 
     <div id="buy-now" class="show-on-scroll">
-        <a class="btn-buy" href="https://themeforest.net/item/seoly-seo-digital-marketing-website-template/59360786" target="_blank">Buy on <img src="demo/envato.svg" alt=""></a>
+        <a class="btn-buy" href="https://themeforest.net/item/seoly-seo-digital-marketing-website-template/59360786" target="_blank">Download Now<img src="demo/envato.svg" alt=""></a>
     </div>
 
     <!-- Javascript Files
@@ -747,4 +720,5 @@ include_once "server/connection.php";
     <script src="<?php echo $domain ?>assets/js/custom-marquee.js"></script>
 
 </body>
+
 </html>
