@@ -36,9 +36,9 @@ if ($isLocal) {
 } else {
     // 🔹 LIVE SERVER
     define('DB_HOST', 'localhost');
-    define('DB_NAME', 'asfast');
-    define('DB_USER', 'yahhhcom_boostyard');
-    define('DB_PASS', 'yahhhcom_boostyard');
+    define('DB_NAME', 'thestrat_asfast');
+    define('DB_USER', 'thestrat_asfast');
+    define('DB_PASS', 'thestrat_asfast');
     define('BASE_URL', 'https://asfast.com.thestratgroupltd.com/');
 }
 
