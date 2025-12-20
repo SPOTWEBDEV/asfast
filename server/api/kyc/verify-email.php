@@ -1,6 +1,6 @@
 <?php
-require "../config/database.php";
-require "../helpers/response.php";
+require "../../config/database.php";
+require "../../helpers/response.php";
 
 $token = $_GET['token'] ?? '';
 

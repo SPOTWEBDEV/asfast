@@ -1,6 +1,6 @@
 <?php
-require "../config/database.php";
-require "../helpers/response.php";
+require "../../config/database.php";
+require "../../helpers/response.php";
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     jsonResponse(false, "Invalid request method");
