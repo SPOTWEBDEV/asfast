@@ -1,6 +1,6 @@
 <?php
-require "../config/database.php";
-require "../helpers/response.php";
+require "../../config/database.php";
+require "../../helpers/response.php";
 
 $data = json_decode(file_get_contents("php://input"), true);
 

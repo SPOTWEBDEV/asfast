@@ -15,11 +15,11 @@ if ($isLocalhost) {
     define("PASSWORD", "");
     define("DATABASE", "asfast");
 } else {
-    $domain = "https://boostyard.com.yahhh44.com/";
+    $domain = "http://asfast.com.thestratgroupltd.com/";
 
-    define("USER", "yahhhcom_boostyard");
-    define("PASSWORD", "yahhhcom_boostyard");
-    define("DATABASE", "yahhhcom_boostyard");
+    define("USER", "thestrat_asfast");
+    define("PASSWORD", "thestrat_asfast");
+    define("DATABASE", "thestrat_asfast");
 }
 
 $connection = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
