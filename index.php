@@ -161,8 +161,7 @@ include_once "server/connection.php";
                         <!-- Savings -->
                         <div class="col-lg-4 wow fadeInRight" data-wow-delay=".2s">
                             <div class="bg-color-op-2 relative h-100 p-40 rounded-1">
-                                <img src="<?php echo $domain ?>assets/images/icons/white/wallet.png"
-                                    class="w-90px bg-color text-light p-3 rounded-10px fs-56 mb-4" alt="">
+                               
                                 <h3>Secure Wallet & Savings</h3>
                                 <p>
                                     Safely store your fiat and crypto assets in one wallet and access
@@ -178,8 +177,7 @@ include_once "server/connection.php";
                         <!-- Crypto Wallet -->
                         <div class="col-lg-4 wow fadeInRight" data-wow-delay=".4s">
                             <div class="bg-color-op-2 relative h-100 p-40 rounded-1">
-                                <img src="<?php echo $domain ?>assets/images/icons/white/crypto.png"
-                                    class="w-90px bg-color text-light p-3 rounded-10px fs-56 mb-4" alt="">
+                                
                                 <h3>Buy, Sell & Swap Crypto</h3>
                                 <p>
                                     Instantly buy, sell, send, receive, and swap cryptocurrencies
@@ -195,8 +193,7 @@ include_once "server/connection.php";
                         <!-- Bills -->
                         <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                             <div class="bg-color-op-2 relative h-100 p-40 rounded-1">
-                                <img src="<?php echo $domain ?>assets/images/icons/white/bill.png"
-                                    class="w-90px bg-color text-light p-3 rounded-10px fs-56 mb-4" alt="">
+                                
                                 <h3>Bills & Airtime Payments</h3>
                                 <p>
                                     Buy airtime, purchase mobile data, and pay utility bills quickly
@@ -212,8 +209,7 @@ include_once "server/connection.php";
                         <!-- Gift Cards -->
                         <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                             <div class="bg-color-op-2 relative h-100 p-40 rounded-1">
-                                <img src="<?php echo $domain ?>assets/images/icons/white/gift.png"
-                                    class="w-90px bg-color text-light p-3 rounded-10px fs-56 mb-4" alt="">
+                               
                                 <h3>Redeem Gift Cards to Cash</h3>
                                 <p>
                                     Convert unused gift cards from brands like iTunes, Amazon, Steam,
@@ -436,27 +432,44 @@ include_once "server/connection.php";
                     </div>
 
                     <div class="row g-custom-4">
+
                         <div class="col-lg-6 wow fadeInUp">
                             <div class="accordion secondary">
                                 <div class="accordion-section">
+
                                     <div class="accordion-section-title" data-tab="#accordion-1">
-                                        What is SEO and why is it important?
+                                        What is Asfast and how does it work?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-1">
-                                        <p>SEO, or Search Engine Optimization, is the process of improving your website's visibility on search engine results pages (SERPs) to drive organic (non-paid) traffic. It involves optimizing various aspects of your website and content to rank higher in search engine rankings. SEO is important because it helps increase your website's visibility, attract more qualified traffic, and improve your chances of converting visitors into customers.</p>
+                                        <p>
+                                            Asfast is a digital finance platform that allows users to buy and sell
+                                            cryptocurrencies, manage a secure wallet, pay bills, and redeem unused
+                                            gift cards for instant cash—all in one app.
+                                        </p>
                                     </div>
+
                                     <div class="accordion-section-title" data-tab="#accordion-2">
-                                        How long does it take to see results from SEO efforts?
+                                        Is my wallet and transaction data secure?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-2">
-                                        <p>The timeline for seeing results from SEO efforts can vary depending on factors such as the competitiveness of your industry, the current state of your website, and the strategies implemented. Generally, significant improvements in search engine rankings and organic traffic can be observed within a few months of implementing SEO strategies, but it's important to understand that SEO is an ongoing process that requires patience and consistent effort.</p>
+                                        <p>
+                                            Yes. Asfast uses advanced security measures to protect your wallet,
+                                            personal information, and transactions. We prioritize user safety and
+                                            data privacy at every level.
+                                        </p>
                                     </div>
+
                                     <div class="accordion-section-title" data-tab="#accordion-3">
-                                        What SEO services do you offer?
+                                        What cryptocurrencies can I trade on Asfast?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-3">
-                                        <p>We offer a comprehensive range of SEO services including website audit and analysis, keyword research, on-page optimization, off-page optimization (link building), content creation and optimization, local SEO, technical SEO, and ongoing monitoring and maintenance.</p>
+                                        <p>
+                                            You can trade popular cryptocurrencies such as Bitcoin, Ethereum,
+                                            USDT, and other supported digital assets. New assets are added regularly
+                                            to meet user demand.
+                                        </p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -464,58 +477,78 @@ include_once "server/connection.php";
                         <div class="col-lg-6 wow fadeInUp">
                             <div class="accordion secondary">
                                 <div class="accordion-section">
+
                                     <div class="accordion-section-title" data-tab="#accordion-b-4">
-                                        Can you guarantee top rankings on search engines?
+                                        Can I convert gift cards to cash instantly?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-b-4">
-                                        <p>While we cannot guarantee specific rankings on search engines, we can guarantee our commitment to implementing ethical and effective SEO strategies that align with best practices and guidelines set forth by search engines like Google. Our goal is to improve your website's visibility and performance over time, which can lead to higher rankings and increased organic traffic.</p>
+                                        <p>
+                                            Yes. Asfast allows you to redeem unused gift cards from popular brands
+                                            and convert them to cash quickly at competitive rates.
+                                        </p>
                                     </div>
+
                                     <div class="accordion-section-title" data-tab="#accordion-b-5">
-                                        How do you choose right SEO strategy for my business?
+                                        Can I buy airtime and data on Asfast?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-b-5">
-                                        <p>We start by conducting a thorough analysis of your website, industry, target audience, and competitors. Based on this research, we develop a customized SEO strategy tailored to your specific goals and objectives. We also take into account your budget, timeline, and any unique challenges or opportunities that may exist.</p>
+                                        <p>
+                                            Absolutely. You can buy airtime, purchase data bundles, and pay utility
+                                            bills directly from your Asfast account with ease.
+                                        </p>
                                     </div>
+
                                     <div class="accordion-section-title" data-tab="#accordion-b-6">
-                                        What kind of reporting can I expect to receive?
+                                        How long do transactions take?
                                     </div>
                                     <div class="accordion-section-content" id="accordion-b-6">
-                                        <p>We provide detailed and transparent reporting that includes metrics such as keyword rankings, organic traffic, website performance, and conversion tracking. Our reports are customized to your specific needs and preferences, and we are always available to provide further explanation or clarification as needed.</p>
+                                        <p>
+                                            Most transactions on Asfast are processed instantly or within a few
+                                            minutes, depending on network conditions and transaction type.
+                                        </p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
+
 
             <section>
                 <div class="container">
                     <div class="row g-4 justify-content-center">
                         <div class="col-lg-6">
                             <div class="text-center">
-                                <div class="subtitle id-color">Free Consultation</div>
-                                <h2 class="wow fadeInUp">Get In Touch With Us Today</h2>
-                                <p class="lead col-lg-10 offset-lg-1">Have a question, suggestion, or just want to say hi? We’re here and happy to hear from you!</p>
+                                <div class="subtitle id-color">Contact Support</div>
+                                <h2 class="wow fadeInUp">Get In Touch With Asfast</h2>
+                                <p class="lead col-lg-10 offset-lg-1">
+                                    Need help with your wallet, transactions, or account?
+                                    Our support team is always ready to assist you.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="row g-4 gx-5 justify-content-center">
+
                         <div class="col-lg-4">
                             <div class="h-100 bg-color text-light p-40 rounded-1">
 
                                 <div class="relative mb-4">
                                     <i class="abs fs-32 p-3 bg-white rounded-1 icofont-location-pin id-color"></i>
                                     <div class="ms-80px">
-                                        <div class="fw-bold text-white">Office Location</div>
-                                        100 S Main St, New York, NY
+                                        <div class="fw-bold text-white">Office Address</div>
+                                        Global • Digital Operations
                                     </div>
                                 </div>
 
                                 <div class="relative mb-4">
                                     <i class="abs fs-32 p-3 bg-white rounded-1 icofont-envelope id-color"></i>
                                     <div class="ms-80px">
-                                        <div class="fw-bold text-white">Send a Message</div>
+                                        <div class="fw-bold text-white">Email Support</div>
                                         <?php echo $siteemail ?>
                                     </div>
                                 </div>
@@ -523,68 +556,63 @@ include_once "server/connection.php";
                                 <div class="relative mb-4">
                                     <i class="abs fs-32 p-3 bg-white rounded-1 icofont-phone id-color"></i>
                                     <div class="ms-80px">
-                                        <div class="fw-bold text-white">Make a Phone Call</div>
-                                        +929 333 9296
+                                        <div class="fw-bold text-white">Customer Care</div>
+                                        +234 XXX XXX XXXX
                                     </div>
                                 </div>
 
                             </div>
                         </div>
+
                         <div class="col-lg-7">
                             <div class="p-4 bg-color-op-3 rounded-1">
                                 <form name="contactForm" id="contact_form" method="post" action="#">
                                     <div class="row g-4">
+
                                         <div class="col-md-6">
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                                         </div>
 
                                         <div class="col-md-6">
-                                            <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <input type="text" name="email" class="form-control" placeholder="Your Email" required>
                                         </div>
 
                                         <div class="col-md-6">
-                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required>
+                                            <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="relative">
-                                                <select name="services" id="services" class="form-control">
-                                                    <option value="Keyword Research">Keyword Research</option>
-                                                    <option value="On-Page SEO">On-Page SEO</option>
-                                                    <option value="Off-Page SEO">Off-Page SEO</option>
-                                                    <option value="Technical SEO">Technical SEO</option>
-                                                    <option value="Local SEO">Local SEO</option>
-                                                    <option value="Content Marketing">Content Marketing</option>
+                                                <select name="services" class="form-control">
+                                                    <option value="Crypto Trading">Crypto Trading</option>
+                                                    <option value="Wallet Support">Wallet Support</option>
+                                                    <option value="Bills Payment">Bills Payment</option>
+                                                    <option value="Gift Card Redemption">Gift Card Redemption</option>
+                                                    <option value="Account Issues">Account Issues</option>
                                                 </select>
                                                 <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-simple-down"></i>
                                             </div>
                                         </div>
 
                                         <div class="col-md-12">
-                                            <textarea name="message" id="message" class="form-control h-100px" placeholder="Message" required></textarea>
+                                            <textarea name="message" class="form-control h-100px" placeholder="Your Message" required></textarea>
                                         </div>
 
                                         <div class="col-md-12">
                                             <div class="text-center">
-                                                <div id='submit'>
-                                                    <input type='submit' id='send_message' value='Send Message' class="btn-main">
-                                                </div>
+                                                <input type="submit" value="Send Message" class="btn-main">
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div id="success_message" class='success'>
-                                        Your message has been sent successfully. Refresh this page if you want to send more messages.
-                                    </div>
-                                    <div id="error_message" class='error'>
-                                        Sorry there was an error sending your form.
                                     </div>
                                 </form>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
+
 
         </div>
         <!-- content close -->
