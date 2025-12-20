@@ -1,5 +1,5 @@
 <?php
-include_once "server/connection.php";
+include_once "server/config/database.php";
 
 
 
@@ -97,7 +97,7 @@ include_once "server/connection.php";
                 <div class="container">
                     <div class="row g-4 align-items-center">
                         <div class="col-lg-6">
-                            <h1 class="wow fadeInUp" data-wow-delay=".2s">Start trading without borders.</h1>
+                            <h1 class="wow fadeInUp" data-wow-delay=".2s">Start trading without borders <?php echo $sitename ?>.</h1>
                             <p class="col-lg-10 wow fadeInUp" data-wow-delay=".4s">Securely manage Your Digital Assets Portfolio and unlock the value of your unused Giftcards</p>
 
                             <a class="btn-main mb10 mb-3 wow fadeInUp" data-wow-delay=".6s" href="request.html"><span>Get Free Proposal</span></a>
