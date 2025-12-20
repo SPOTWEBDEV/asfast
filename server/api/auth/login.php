@@ -13,7 +13,7 @@ if (!$email || !$password) {
 }
 
 $stmt = $pdo->prepare(
-  "SELECT id, email, first_name, last_name, password, kyc_level
+  "SELECT id, email, first_name, last_name, password, kyc_level , bal
    FROM users WHERE email = ? LIMIT 1"
 );
 $stmt->execute([$email]);
