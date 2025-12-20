@@ -1,26 +1,14 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', ($_SERVER['HTTP_HOST'] === 'localhost') ? 1 : 0);
 
 session_start();
 
 define("HOST", "localhost");
 
-$isLocalhost = ($_SERVER['HTTP_HOST'] === 'localhost');
+$domain = "http://asfast.com.thestratgroupltd.com/";
+define("USER", "thestrat_asfast");
+define("PASSWORD", "thestrat_asfast");
+define("DATABASE", "thestrat_asfast");
 
-if ($isLocalhost) {
-    $domain = "http://localhost/asfast/";
-
-    define("USER", "root");
-    define("PASSWORD", "");
-    define("DATABASE", "asfast");
-} else {
-    $domain = "http://asfast.com.thestratgroupltd.com/";
-
-    define("USER", "thestrat_asfast");
-    define("PASSWORD", "thestrat_asfast");
-    define("DATABASE", "thestrat_asfast");
-}
 
 $connection = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 if (!$connection) {
@@ -29,7 +17,6 @@ if (!$connection) {
     exit;
 }
 
-mysqli_set_charset($connection, "utf8mb4");
 
 $sitename  = 'Asfast';
 $siteemail = 'support@asfast.com';
