@@ -18,6 +18,18 @@
   <link rel="stylesheet" href="assets/css/plugin/animate.css" />
   <link rel="stylesheet" href="assets/css/style.min.css" />
   <link rel="stylesheet" href="assets/css/style-rtl.min.css" id="rtl-stylesheet" disabled />
+
+  <style>
+    .logo{
+       width: 200px !important;
+    }
+
+    @media (max-width:400px){
+       .logo{
+       width: 100px !important;
+    }
+    }
+  </style>
 </head>
 
 <body>
@@ -36,7 +48,7 @@
         <div class="row d-flex header-area">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">
-              <img width="100" src="assets/images/logo-dark.png" class="logo" alt="logo" />
+              <img  src="assets/images/logo-dark.png" class="logo" alt="logo" />
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbar-content">
@@ -781,20 +793,7 @@
               everyday digital payments fast, convenient, and reliable.
             </p>
 
-            <ul class="list">
-              <li class="list-item d-flex align-items-center">
-                <span class="check d-flex align-items-center justify-content-center">
-                  <img src="assets/images/icon/check.png" alt="icon" />
-                </span>
-                <span>Bill Payments ,Funds Transfer ,QR payments</span>
-              </li>
-              <li class="list-item d-flex align-items-center">
-                <span class="check d-flex align-items-center justify-content-center">
-                  <img src="assets/images/icon/check.png" alt="icon" />
-                </span>
-                <span>Credit card payments and Order food</span>
-              </li>
-            </ul>
+           
           </div>
           <div class="button-group d-flex align-items-center flex-wrap">
             <a href="javascript:void(0)">
@@ -803,6 +802,9 @@
             <a href="javascript:void(0)">
               <img src="assets/images/app-store.png" alt="image" />
             </a>
+
+            <button onclick="downloadingFunction()" class="cmn-btn">Download The APK APP</button>
+
           </div>
         </div>
         <div class="col-lg-6 text-end">
@@ -883,14 +885,7 @@
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="board-tab" data-bs-toggle="tab" data-bs-target="#board" type="button"
                   role="tab" aria-controls="board" aria-selected="true">
-                 Owner
-                </button>
-              </li>
-            
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="developers-tab" data-bs-toggle="tab" data-bs-target="#developers"
-                  type="button" role="tab" aria-controls="developers" aria-selected="false">
-                  Developers
+                 Asfast Teams
                 </button>
               </li>
             
@@ -917,8 +912,9 @@
                         <img src="assets/images/spotweb.jpeg" alt="image" />
                       </div>
                       <div class="test-area">
-                        <h5>SpotWeb Tech</h5>
-                        <p>Developer</p>
+                        <h5>Ezea Ugochukwu Micheal</h5>
+                        <p>CEO & Founder OF SPOTWEB TECH</p>
+                         <p>Full Stcak Web Developer</p>
                       </div>
                     </div>
                   </div>
@@ -930,7 +926,8 @@
                       </div>
                       <div class="test-area">
                         <h5>BestkindWeb</h5>
-                        <p>Developer</p>
+                        <p>CEO & Founder OF Bestkind Web</p>
+                        <p>Full Stcak Web Developer</p>
                       </div>
                     </div>
                   </div>
@@ -1602,7 +1599,7 @@
                   href="https://pixner.net/cdn-cgi/l/email-protection#05767075756a77714567646b6e6c6a">Support@Asfast</a>
               </li>
               <li><a href="#contact">Contact Us</a></li>
-              <li><a href="faqs.html">FAQ</a></li>
+              <li><a href="#faqs">FAQ</a></li>
             </ul>
           </div>
         </div>
@@ -1626,12 +1623,11 @@
           <div class="footer-bottom">
             <div class="left">
               <p>
-                Copyright © <a href="index.html">Asfast</a> | Developed by
+                Copyright © <a href="">Asfast</a> | Developed by
                 <a href="#">SPOTWEB TECH</a>
               </p>
             </div>
             <div class="right">
-              <a href="privacy-policy.html" class="cus-bor">Privacy </a>
               <a href="terms-conditions.html">Terms &amp; Condition </a>
             </div>
           </div>
@@ -1657,6 +1653,19 @@
   <script src="assets/js/plugin/wow.min.js"></script>
   <script src="assets/js/plugin/plugin.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script>
+  function downloadingFunction() {
+    const fileURL = "https://asfast-app.com/download/apk/asfast.apk";
+
+    const link = document.createElement("a");
+    link.href = fileURL;
+    link.download = ""; // optional (lets browser handle filename)
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
 </body>
 
 </html>
